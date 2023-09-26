@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Bakbak One', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 10px;
+
+}
+span{
+    position: relative;
+    left: 1030px;
+    bottom: 13px;
+}
+#background{
+    height: 420px;
+    width: 1350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#content{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    bottom: 350px;
+    left: 50px;
+}
+#tag{
+    font-size: 20px;
+}
+#books{
+    position: relative;
+    bottom: 100px;
+    left: 50px;
+}
+#newbooks img{
+    height: 200px;
+
+}
+#newbooks{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 90px;
+    left: 10px;
+}
+#description-books div{
+    line-height: 30px;
+}
+#description-books{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    position: relative;
+    left: 45px;
+    bottom: 80px;
+}
+#add1,#add{
+    font-size: 15px;
+    width: 70px;
+    align-items: center;
+    border-radius: 10%;
+    background-color: blue;
+    color: white;
+}
+#add1{
+    position: relative;
+    bottom: 60px;
+    left: 90px;
+
+}
+#addicon{
+    position: relative;
+    left: 8px;
+    top: 2px;
+}
+#icon{
+    position: relative;
+    left: 5px;
+}
+
+
+
+
+
+
+
+#games{
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+}
+#newgames{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 40px;
+}
+#description-games{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    position: relative;
+    left: 40px;
+    bottom: 40px;
+    
+}
+#description-games div{
+    line-height: 30px;
+}
+#add{
+    position: relative;
+    left: 170px;
+    bottom: 35px;
+}
+
+
+
+
+#handmade{
+    position: relative;
+    left: 50px;
+    bottom: 25px;
+}
+#handmade-product{
+    display: flex;
+    justify-content: space-evenly;
+}
+#description-handmade{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    position: relative;
+    left: 40px;
+    bottom: 2px;
+    
+}
+#description-handmade div{
+    line-height: 30px;
+}
+#photo{
+    border-radius: 100%;
+}
+
+
+
+#footer{
+    position: relative;
+    left: 1050px;
+    bottom: 150px;
+}
+footer{
+    height: 200px;
+    overflow-y: hidden;
+}
