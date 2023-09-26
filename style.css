@@ -41,7 +41,7 @@ span{
     bottom: 100px;
     left: 50px;
 }
-#newbooks img{
+/* #newbooks img{
     height: 200px;
 
 }
@@ -51,7 +51,7 @@ span{
     position: relative;
     bottom: 90px;
     left: 10px;
-}
+} */
 #description-books div{
     line-height: 30px;
 }
@@ -149,12 +149,48 @@ span{
 
 
 
-#footer{
-    position: relative;
-    left: 1050px;
-    bottom: 150px;
+.flexspace-between{
+    display: flex;
+    justify-content: space-between;
+
 }
-footer{
-    height: 200px;
-    overflow-y: hidden;
+
+
+
+@media(max-width: 428px){
+    #background{
+        height: 400px;
+        width: 100%;
+    }
+    #description-books{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #description-games{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #description-handmade{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #book1{
+        height: 400px;
+    }
+    #hi{
+        text-align: center;
+    }
+    #add1{
+        margin-left: 130px;
+    }
+    #add{
+        margin-top: 5px;
+    }
+    footer{
+        width: auto;
+    }
+    
 }
